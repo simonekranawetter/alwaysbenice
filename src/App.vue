@@ -1,30 +1,25 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import BeNice from './views/BeNice.vue';
 </script>
 
 <template>
-  <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
-  </div>
-  <HelloWorld msg="Vite + Vue" />
+  <BeNice />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background: hsla(191, 88%, 81%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(191, 88%, 81%, 1) 0%,
+    hsla(260, 72%, 82%, 1) 50%,
+    hsla(247, 73%, 69%, 1) 100%
+  );
 }
 </style>
