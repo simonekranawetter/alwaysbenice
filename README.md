@@ -1,21 +1,46 @@
-# Vue 3 + Vite
+# **✨ Always Be Nice ✨**
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Need some uplifting words to brighten your day? The idea is to share motivational words that inspire and bring a little joy to your work day. You can easily contribute your favorite quotes to add your own touch of nice.
+## Getting Started
 
-While this project uses Vue.js, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+To get started with the Always Be Nice project, follow these steps:
 
-## Deploy Your Own
+   Clone the repository to your local machine:
 
-Deploy your own Vite project with Vercel.
+    git clone https://github.com/your-username/always-be-nice.git
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vite&template=vite)
 
-_Live Example: https://vite-vue-template.vercel.app_
+Navigate to the project directory:
 
-### Deploying From Your Terminal
+    cd always-be-nice
 
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
+Open the `public/encouraging-quotes.txt` file.
 
-```shell
-$ vercel
-```
+Add your own encouraging quotes to the file, each on a new line.
+
+Save the file and commit your changes.
+Create a Pull Request (PR) to merge your changes into the main project:
+
+- Navigate to the repository on GitHub.
+- Click on the "Pull Requests" tab.
+- Click the "New Pull Request" button.
+- Select your branch and confirm the pull request.
+
+## Usage
+
+The primary goal of this project is to spread positivity among team members. Feel free to read and share the quotes provided in the encouraging-quotes.txt file. If you have your favorite quotes to contribute, follow the steps in the "Getting Started" section.
+Contribution Guidelines
+
+Contributions to the Always Be Nice project are highly encouraged. To add your own encouraging quotes:
+
+  Follow the steps outlined in the "Getting Started" section to commit and push your changes.
+
+    Your quotes will now be part of the collection, spreading positivity to the entire team.
+
+Let's Make Work a Happier Place!
+
+Together, let's create a workspace filled with motivation and encouragement. Your contributions to the Always Be Nice project make a difference in brightening everyone's day.
+
+Feel free to explore the quotes, share them with your colleagues, and keep the positive vibes flowing!
+
+Happy coding and don't forget to be nice! 😊✨
